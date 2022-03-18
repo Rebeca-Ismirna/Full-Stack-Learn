@@ -1,0 +1,24 @@
+(function() {
+    console.log('Será executada na hora')
+    console.log('Foge do escopo mais abrangente')
+})()
+
+// IIEF -> Immediately invoked function expression
+/*(function(idade, peso, altura) {
+
+    const sobrenome = 'Miranda'
+    function criaNome(nome) {
+        return nome + ' ' + sobrenome
+    }
+
+    function falaNome() {
+        console.log(criaNome('Luiz'))
+    }
+    
+    falaNome()
+    console.log(idade, peso, altura)
+
+})(30, 80, 1.80)
+
+console.log('---------------------------')
+*/
